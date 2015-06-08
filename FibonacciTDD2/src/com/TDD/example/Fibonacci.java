@@ -29,6 +29,16 @@ public class Fibonacci {
 			}
 			return fibonacci;
 		}
+		
+		/**
+		 * Gives a sum of a even-valued terms of Fibonacci sequence (until that sum 
+		 * is less than 4 000 000) up to given term
+		 * 
+		 * @param Maxterm, the higher board, to which sum will be calculated
+		 *
+		 * @return       adequate sum. 
+		 */
+		
 	}
 	public static int getEvenTermsFiboValuesSum(int MaxTerm) {
 		int FiboSum = 0;
