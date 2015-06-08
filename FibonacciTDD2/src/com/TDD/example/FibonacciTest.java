@@ -30,6 +30,6 @@ public class FibonacciTest {
 	@Test
 	public void testEvenValueTermUntil_4() {
 		Fibonacci fibo = new Fibonacci();
-		assertEquals(4, fibo.getEvenTermsFiboValuesSum(4));
+		assertEquals(3, fibo.getEvenTermsFiboValuesSum(4));
 	}
 }

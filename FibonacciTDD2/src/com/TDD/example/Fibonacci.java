@@ -11,7 +11,7 @@ public class Fibonacci {
 	 * @return suitable value for given term.
 	 */
 	
-	public int getFiboValue(int term) {
+	public static int getFiboValue(int term) {
 		int fibonacci = 0;
 		if (term == 0)
 			return 0;
@@ -30,5 +30,14 @@ public class Fibonacci {
 			return fibonacci;
 		}
 	}
+	public static int getEvenTermsFiboValuesSum(int MaxTerm) {
+		int FiboSum = 0;
+		for (int i = 0; i <= MaxTerm; i++) {
 
+			if (i % 2 == 0 && getFiboValue(i) <= 4000000)
+				FiboSum += getFiboValue(i);
+
+		}
+		return FiboSum;
+	}
 }
